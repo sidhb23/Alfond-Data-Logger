@@ -9933,6 +9933,16 @@
 		)
 		(uuid "275ca02c-5c46-401c-981e-8bd47262e725")
 	)
+	(text "look into vcap\n"
+		(exclude_from_sim no)
+		(at 158.75 164.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c816046-b5d2-4d44-b777-3d560d94ddf4")
+	)
 	(text "double check if the 10k is correct\n"
 		(exclude_from_sim no)
 		(at 60.706 104.394 0)
