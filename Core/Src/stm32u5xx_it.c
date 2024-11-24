@@ -55,7 +55,7 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
-extern UART_HandleTypeDef huart5;
+
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -199,17 +199,17 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 /**
-  * @brief This function handles UART5 global interrupt.
+  * @brief This function handles EXTI Line13 interrupt.
   */
-void UART5_IRQHandler(void)
+void EXTI13_IRQHandler(void)
 {
-  /* USER CODE BEGIN UART5_IRQn 0 */
+  /* USER CODE BEGIN EXTI13_IRQn 0 */
 
-  /* USER CODE END UART5_IRQn 0 */
-  HAL_UART_IRQHandler(&huart5);
-  /* USER CODE BEGIN UART5_IRQn 1 */
+  /* USER CODE END EXTI13_IRQn 0 */
+  BSP_PB_IRQHandler(BUTTON_USER);
+  /* USER CODE BEGIN EXTI13_IRQn 1 */
 
-  /* USER CODE END UART5_IRQn 1 */
+  /* USER CODE END EXTI13_IRQn 1 */
 }
 
 /* USER CODE BEGIN 1 */

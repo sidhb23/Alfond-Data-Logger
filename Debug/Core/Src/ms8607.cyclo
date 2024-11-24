@@ -1,0 +1,7 @@
+../Core/Src/ms8607.c:10:6:MS8607_Init	1
+../Core/Src/ms8607.c:18:6:MS8607_Reset	1
+../Core/Src/ms8607.c:29:6:MS8607_ReadPROM	2
+../Core/Src/ms8607.c:45:10:MS8607_ReadADC	1
+../Core/Src/ms8607.c:62:7:MS8607_ReadTemperature	4
+../Core/Src/ms8607.c:85:7:MS8607_ReadPressure	3
+../Core/Src/ms8607.c:107:7:MS8607_ReadHumidity	1
