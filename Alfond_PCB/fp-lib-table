@@ -4,4 +4,5 @@
   (lib (name "digikey-footprints")(type "KiCad")(uri "C:/Users/mpica/Downloads/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
   (lib (name "Adafruit INA260")(type "KiCad")(uri "C:/Users/mpica/Downloads/Adafruit-INA260-PCB/Adafruit INA260/Adafruit INA260.pretty")(options "")(descr ""))
   (lib (name "Adafruit MS8607")(type "KiCad")(uri "C:/Users/mpica/Downloads/Adafruit-MS8607-PCB/Adafruit MS8607/Adafruit MS8607.pretty")(options "")(descr ""))
+  (lib (name "Mics")(type "KiCad")(uri "C:/Users/mpica/Downloads/ul_MIC5219-3-3YM5-TR/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
