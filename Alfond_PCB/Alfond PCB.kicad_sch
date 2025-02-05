@@ -4570,6 +4570,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "PHR-2:PHR-2"
 			(pin_names
 				(offset 1.016)
@@ -8542,16 +8624,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 118.11) (xy 110.49 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48390bd8-f477-4a7d-83c2-0bf8d21dbd41")
-	)
-	(wire
-		(pts
 			(xy 278.13 86.36) (xy 279.4 86.36)
 		)
 		(stroke
@@ -8639,16 +8711,6 @@
 			(type default)
 		)
 		(uuid "511a5037-ea63-4c6a-b1a2-116e5aa9429d")
-	)
-	(wire
-		(pts
-			(xy 92.71 144.78) (xy 92.71 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "512ce3e5-0f3f-4a14-8977-bd7a33291ef2")
 	)
 	(wire
 		(pts
@@ -8772,6 +8834,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 128.27) (xy 110.49 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588aa718-8f50-47c6-9489-e6f8039caa01")
+	)
+	(wire
+		(pts
 			(xy 40.64 59.69) (xy 40.64 62.23)
 		)
 		(stroke
@@ -8839,6 +8911,16 @@
 			(type default)
 		)
 		(uuid "5ecc239f-b3c5-4805-a976-d3a77c6eb531")
+	)
+	(wire
+		(pts
+			(xy 95.25 113.03) (xy 95.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6135ee03-ccc7-4984-905b-5f1342cac96e")
 	)
 	(wire
 		(pts
@@ -8992,6 +9074,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 120.65) (xy 110.49 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8044a6-58c4-42cc-a52f-3f0de7b042e6")
+	)
+	(wire
+		(pts
 			(xy 19.05 144.78) (xy 27.94 144.78)
 		)
 		(stroke
@@ -9089,6 +9181,16 @@
 			(type default)
 		)
 		(uuid "7428c408-3c49-4153-bd91-c5718634504c")
+	)
+	(wire
+		(pts
+			(xy 95.25 115.57) (xy 110.49 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d1faff-d9fb-4fa6-beb7-ea37027e76ac")
 	)
 	(wire
 		(pts
@@ -9222,13 +9324,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 128.27) (xy 110.49 128.27)
+			(xy 99.06 110.49) (xy 99.06 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85ffedf7-4a63-44bb-826e-c1a960125f1e")
+		(uuid "868dfa7a-cc0d-45ec-8b06-30ef97569f40")
 	)
 	(wire
 		(pts
@@ -9339,6 +9441,16 @@
 			(type default)
 		)
 		(uuid "927dfa4f-0fd6-4517-acbd-63786a46f14e")
+	)
+	(wire
+		(pts
+			(xy 99.06 118.11) (xy 110.49 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9420e840-62b4-4cda-be49-0adc6ddf307b")
 	)
 	(wire
 		(pts
@@ -9592,13 +9704,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 110.49) (xy 99.06 115.57)
+			(xy 92.71 144.78) (xy 92.71 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af078ff1-286c-4962-88ba-2bae822116e2")
+		(uuid "b05a226d-5bb4-4fc9-9ec2-393b0e157134")
 	)
 	(wire
 		(pts
@@ -9722,7 +9834,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 128.27) (xy 95.25 149.86)
+			(xy 95.25 120.65) (xy 95.25 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9909,16 +10021,6 @@
 			(type default)
 		)
 		(uuid "ca8750c5-f490-4f22-9ef9-5870a2cf05d5")
-	)
-	(wire
-		(pts
-			(xy 92.71 120.65) (xy 110.49 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc4e5416-491a-45af-9316-0bd2cba40b25")
 	)
 	(wire
 		(pts
@@ -10412,16 +10514,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 115.57) (xy 110.49 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa82497a-9837-47b7-840c-966287f96a75")
-	)
-	(wire
-		(pts
 			(xy 40.64 62.23) (xy 40.64 64.77)
 		)
 		(stroke
@@ -10449,16 +10541,6 @@
 			(type default)
 		)
 		(uuid "fc91b02c-1091-4aa8-8103-e06d0eb69b6d")
-	)
-	(wire
-		(pts
-			(xy 95.25 113.03) (xy 95.25 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fca4c24b-0af9-4155-a0e5-180e6d670692")
 	)
 	(wire
 		(pts
@@ -10500,6 +10582,28 @@
 		)
 		(uuid "ffd2e132-69cd-4642-8444-3096ef3b599e")
 	)
+	(rectangle
+		(start 156.21 17.78)
+		(end 179.705 46.355)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7cc510ef-dc20-482f-82ca-38d8d648c156)
+	)
+	(text "Mounting Holes\n"
+		(exclude_from_sim no)
+		(at 164.084 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06bd084e-46c4-47f8-ae37-5b3ca778696e")
+	)
 	(text "look into vcap\n"
 		(exclude_from_sim no)
 		(at 158.75 164.338 0)
@@ -10509,36 +10613,6 @@
 			)
 		)
 		(uuid "2c816046-b5d2-4d44-b777-3d560d94ddf4")
-	)
-	(text "add a swd programming header on for programming\n"
-		(exclude_from_sim no)
-		(at 216.408 17.018 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "760bc8af-1d6c-4a31-bbc0-bbc8f64fba3f")
-	)
-	(text "add a reset button for the ucontroller\n"
-		(exclude_from_sim no)
-		(at 209.55 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "87bec0f3-2c5e-492a-b33c-bb85647181cb")
-	)
-	(text "add a button for the boot0 pin\n"
-		(exclude_from_sim no)
-		(at 210.82 21.336 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b7b27e64-c3b2-4931-94f9-c2eed0518653")
 	)
 	(text "Alfond Arena Data Logger PCB\n"
 		(exclude_from_sim no)
@@ -10575,17 +10649,6 @@
 		)
 		(uuid "07e032ed-54d7-4851-a0e2-b085dedf3805")
 	)
-	(label "I2C1_SDA"
-		(at 101.6 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ddcf8bf-9448-40fb-a10c-193a8eaa0491")
-	)
 	(label "I2C1_SCL"
 		(at 87.63 113.03 0)
 		(fields_autoplaced yes)
@@ -10618,17 +10681,6 @@
 			(justify left bottom)
 		)
 		(uuid "2ed9ef44-9a35-42ad-9011-8741f3aa235b")
-	)
-	(label "I2C1_SCL"
-		(at 101.6 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f3db6bd-9d7e-41f5-9488-8eeabbdffeaf")
 	)
 	(label "I2C2_SDA"
 		(at 57.15 144.78 0)
@@ -10684,6 +10736,17 @@
 			(justify left bottom)
 		)
 		(uuid "5911dca7-47fd-41c8-b014-6d3a964a4ba6")
+	)
+	(label "I2C1_SCL"
+		(at 110.49 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c722db6-0041-40aa-b774-15e477d1327c")
 	)
 	(label "I2C2_SCL"
 		(at 59.69 149.86 0)
@@ -10805,6 +10868,17 @@
 			(justify left bottom)
 		)
 		(uuid "af6428b2-2563-445e-9afc-5a1d1b508d47")
+	)
+	(label "I2C1_SDA"
+		(at 110.49 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b68a5c95-6a63-44c3-90a7-d690b4202841")
 	)
 	(label "HSE_OUT"
 		(at 156.21 67.31 0)
@@ -11172,7 +11246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 202.8952 100.33 0)
 			(effects
 				(font
@@ -11608,7 +11682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 83.5152 41.91 0)
 			(effects
 				(font
@@ -11678,7 +11752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 167.3352 60.96 0)
 			(effects
 				(font
@@ -12162,7 +12236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 60.6552 41.91 0)
 			(effects
 				(font
@@ -12334,6 +12408,70 @@
 			(project "Alfond PCB"
 				(path "/a49d69de-c8cc-4590-9df8-ae7f598e37d2"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 161.29 41.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ea53662-e015-49bc-9c4d-b26bba1f3c17")
+		(property "Reference" "H4"
+			(at 163.83 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 163.83 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Alfond PCB"
+				(path "/a49d69de-c8cc-4590-9df8-ae7f598e37d2"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -12667,7 +12805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 37.7952 41.91 0)
 			(effects
 				(font
@@ -12737,7 +12875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 113.9952 41.91 0)
 			(effects
 				(font
@@ -12997,6 +13135,70 @@
 			(project ""
 				(path "/a49d69de-c8cc-4590-9df8-ae7f598e37d2"
 					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 161.29 29.21 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bc9d8f0-ce6a-4a71-b80c-b77a21e2ece4")
+		(property "Reference" "H2"
+			(at 163.83 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 163.83 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/a49d69de-c8cc-4590-9df8-ae7f598e37d2"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13640,7 +13842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 93.6752 41.91 0)
 			(effects
 				(font
@@ -13710,7 +13912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 72.0852 41.91 0)
 			(effects
 				(font
@@ -14182,7 +14384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 49.2252 41.91 0)
 			(effects
 				(font
@@ -14485,6 +14687,70 @@
 			(project "Alfond PCB"
 				(path "/a49d69de-c8cc-4590-9df8-ae7f598e37d2"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 161.29 22.86 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99aa9004-6e3a-4076-b753-83072755ef3e")
+		(property "Reference" "H1"
+			(at 163.83 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 163.83 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 161.29 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 161.29 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/a49d69de-c8cc-4590-9df8-ae7f598e37d2"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -14926,7 +15192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.2252 100.33 0)
 			(effects
 				(font
@@ -15193,7 +15459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 25.0952 41.91 0)
 			(effects
 				(font
@@ -15332,7 +15598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 41.6052 72.39 0)
 			(effects
 				(font
@@ -15535,7 +15801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Wuerth_629105150521"
+		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118193-0001LF_Horizontal"
 			(at 185.42 128.27 0)
 			(effects
 				(font
@@ -15617,7 +15883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 105.1052 41.91 0)
 			(effects
 				(font
@@ -16403,6 +16669,70 @@
 			(project "Alfond PCB"
 				(path "/a49d69de-c8cc-4590-9df8-ae7f598e37d2"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 161.29 35.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f212bbb3-59da-4447-92a5-f30c4b3890c2")
+		(property "Reference" "H3"
+			(at 163.83 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 163.83 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 161.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 161.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Alfond PCB"
+				(path "/a49d69de-c8cc-4590-9df8-ae7f598e37d2"
+					(reference "H3")
 					(unit 1)
 				)
 			)

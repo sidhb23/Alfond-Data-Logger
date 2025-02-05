@@ -61,8 +61,8 @@ all: main-build
 main-build: Testing.elf secondary-outputs
 
 # Tool invocations
-Testing.elf Testing.map: $(OBJS) $(USER_OBJS) C:\Users\mpica\STM32CubeIDE\workspace_1.16.1\Testing\STM32U545RETXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Testing.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\mpica\STM32CubeIDE\workspace_1.16.1\Testing\STM32U545RETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="Testing.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Testing.elf Testing.map: $(OBJS) $(USER_OBJS) C:\Users\siddh\STM32CubeIDE\workspace_1.16.0\Testing\STM32U545RETXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Testing.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\siddh\STM32CubeIDE\workspace_1.16.0\Testing\STM32U545RETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="Testing.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
