@@ -4841,7 +4841,7 @@
 	(footprint "Button_Switch_SMD:SW_SPDT_PCM12"
 		(layer "F.Cu")
 		(uuid "5b993c97-a955-46cc-9071-b0203866d805")
-		(at 210.85 50.22 180)
+		(at 210.75 47 180)
 		(descr "Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf")
 		(property "Reference" "SW1"
 			(at 0 -3.2 0)
@@ -13330,6 +13330,14 @@
 		(uuid "0328d167-e273-4372-baec-14a70992370f")
 	)
 	(segment
+		(start 213 52.5)
+		(end 215.5 55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "0372b50b-f347-473d-bab4-f3ec8bce0f35")
+	)
+	(segment
 		(start 218.5 64.75)
 		(end 218.5 66.325)
 		(width 0.2)
@@ -13722,28 +13730,12 @@
 		(uuid "7eb5870b-14fd-421f-a614-ffd7391c09d0")
 	)
 	(segment
-		(start 213.1 51.65)
-		(end 213.1 52.6)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "8004c9ea-dccd-4853-8931-1bfe63b9a81e")
-	)
-	(segment
 		(start 176.4625 90.0375)
 		(end 176.5 90)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "804a7a78-4e36-443f-b80d-4b840093e28a")
-	)
-	(segment
-		(start 213.1 52.6)
-		(end 215.5 55)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "808445de-3f2c-48e3-9e2f-3aa85b1c24be")
 	)
 	(segment
 		(start 169.5 80.5)
@@ -13768,6 +13760,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "88f96c46-935a-4230-9a48-877ac894a20d")
+	)
+	(segment
+		(start 213 48.43)
+		(end 213 52.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "8905add1-ce16-462c-9fcd-38a52ab059fd")
 	)
 	(segment
 		(start 174 90.0375)
@@ -15066,14 +15066,6 @@
 		(uuid "12fec076-362a-4923-9e0b-556ec5fe5e14")
 	)
 	(segment
-		(start 208.6 51.65)
-		(end 208.6 56.1675)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "19b35f33-f669-48fd-a50a-51a600797120")
-	)
-	(segment
 		(start 185.7125 88.7125)
 		(end 186 89)
 		(width 0.2)
@@ -15138,14 +15130,6 @@
 		(uuid "2bc5af3a-490d-47f6-a32b-7a3dec21ce8f")
 	)
 	(segment
-		(start 208.6 56.1675)
-		(end 214.75 62.3175)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "2ffd1c2b-0213-48a5-b882-c8bc7e36da10")
-	)
-	(segment
 		(start 219 83.4325)
 		(end 219 81.675)
 		(width 0.2)
@@ -15160,6 +15144,14 @@
 		(layer "F.Cu")
 		(net 4)
 		(uuid "3606adf0-d24e-496f-a6ad-b5c8a3b70e65")
+	)
+	(segment
+		(start 208.5 56.0675)
+		(end 214.75 62.3175)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "36f53a54-3072-4cea-990f-33f6a9ad5b26")
 	)
 	(segment
 		(start 197.15 97.5)
@@ -15402,6 +15394,14 @@
 		(uuid "9c9d540e-571c-402c-98e4-8eca41d742dd")
 	)
 	(segment
+		(start 214.75 62.3175)
+		(end 214.75 64.4625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "9ce0dd7e-9f50-4f74-a8e4-2a7f47b6fd75")
+	)
+	(segment
 		(start 217.15741 70.5)
 		(end 217.828705 69.828705)
 		(width 0.2)
@@ -15424,14 +15424,6 @@
 		(layer "F.Cu")
 		(net 4)
 		(uuid "a4800efb-6982-4d69-93c1-85567d92d049")
-	)
-	(segment
-		(start 214.75 62.3175)
-		(end 214.75 64.4625)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "aab986cc-d182-41a0-b6a7-db56d42356d6")
 	)
 	(segment
 		(start 230.421295 69.421295)
@@ -15496,6 +15488,14 @@
 		(layer "F.Cu")
 		(net 4)
 		(uuid "bddb5aa6-a4d4-4464-b904-1f199dfc5529")
+	)
+	(segment
+		(start 208.5 48.43)
+		(end 208.5 56.0675)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "c0bd0088-4b04-45dd-ae5f-f674c48ee189")
 	)
 	(segment
 		(start 218 66.325)
@@ -17842,14 +17842,6 @@
 		(uuid "df741934-85a8-4304-82cf-9000672dd2ab")
 	)
 	(segment
-		(start 210.1 51.65)
-		(end 210.1 53.9)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "29bc5c7f-69bd-4c61-a09a-98f6a9abc9d1")
-	)
-	(segment
 		(start 220.0875 63)
 		(end 219.1 63)
 		(width 0.2)
@@ -17880,6 +17872,14 @@
 		(layer "F.Cu")
 		(net 39)
 		(uuid "e6df02a7-3446-41a5-a701-fa371ccac9e5")
+	)
+	(segment
+		(start 210 48.43)
+		(end 210 54)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 39)
+		(uuid "eb319c1f-6f7c-4d69-b15a-3f348794678b")
 	)
 	(via
 		(at 210 54)
